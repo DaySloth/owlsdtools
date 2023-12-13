@@ -20,23 +20,23 @@ export default function EmailGenerator({ customer, data }) {
         copyText();
         switch (customer) {
             case "seveneleven":
-                window.location.href = `mailto:SevenEleven?cc=SevenEleven&subject=7-Eleven Active Service Needs&body=`
+                window.location.href = `mailto:jim.carlton@owlservices.com; Andrew.Morris@owlservices.com?cc=Jake.Cooley@owlservices.com&subject=7-Eleven Active Service Needs&body=`
                 break;
 
             case "ccfi":
-                window.location.href = `mailto:ccfi?cc=ccfi&subject=Community Choice Financial Active Service Needs&body=`
+                window.location.href = `mailto:jp.bergman@owlservices.com?cc=Jake.Cooley@owlservices.com&subject=Community Choice Financial Active Service Needs&body=`
                 break;
 
             case "parklandusa":
-                window.location.href = `mailto:Parkland?cc=Parkland&subject=Parkland USA Active Service Needs&body=`
+                window.location.href = `mailto:brandon.ring@owlservices.com; mesha.jackson@owlservices.com?cc=Jake.Cooley@owlservices.com&subject=Parkland USA Active Service Needs&body=`
                 break;
 
             case "southpawabtb":
-                window.location.href = `mailto:SouthpawABTB?cc=SouthpawABTB&subject=Southpaw/ABTB Active Service Needs&body=`
+                window.location.href = `mailto:brandon.ring@owlservices.com; mesha.jackson@owlservices.com?cc=Jake.Cooley@owlservices.com&subject=Southpaw/ABTB Active Service Needs&body=`
                 break;
 
             case "other":
-                window.location.href = `mailto:Other?subject=******* Active Service Needs&body=`
+                window.location.href = `mailto:Jake.Cooley@owlservices.com?subject=******* Active Service Needs&body=`
                 break;
 
             default:

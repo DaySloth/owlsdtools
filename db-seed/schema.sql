@@ -33,8 +33,8 @@ CREATE TABLE
 CREATE TABLE
     issues (
         IssueID INTEGER NOT NULL AUTO_INCREMENT,
-        Text TEXT NOT NULL,
-        Value TEXT NOT NULL,
+        text TEXT NOT NULL,
+        value TEXT NOT NULL,
         PRIMARY KEY (IssueID)
     );
 
@@ -47,7 +47,7 @@ CREATE TABLE
         Address2 TEXT NULL,
         City TEXT NULL,
         State TEXT NULL,
-        ZipCode INT NULL,
+        ZipCode TEXT NULL,
         `Online Date` TEXT NULL,
         IssueID INTEGER NOT NULL,
         Status TEXT NULL,
