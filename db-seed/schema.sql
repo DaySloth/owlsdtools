@@ -1,4 +1,4 @@
-CREATE DB rrms;
+CREATE DATABASE rrms;
 
 USE rrms;
 
