@@ -11,7 +11,7 @@ CREATE TABLE
         Address2 TEXT NULL,
         City TEXT NULL,
         State TEXT NULL,
-        ZipCode INT NULL,
+        ZipCode TEXT NULL,
         County TEXT NULL,
         Township TEXT NULL,
         Phone TEXT NULL,
